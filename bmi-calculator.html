@@ -86,10 +86,10 @@
                         <ul>
                             <li><a href="./index.html">Home</a></li>
                             <li><a href="./about-us.html">About Us</a></li>
-                            <li><a href="./classes.html">Classes</a></li>
-                            <li class="active"><a href="./services.html">Services</a></li>
+                            <li><a href="./class-details.html">Classes</a></li>
+                            <li><a href="./services.html">Services</a></li>
                             <li><a href="./team.html">Our Team</a></li>
-                            <li><a href="#">Pages</a>
+                            <li class="active"><a href="#">Pages</a>
                                 <ul class="dropdown">
                                     <li><a href="./about-us.html">About us</a></li>
                                     <li><a href="./class-timetable.html">Classes timetable</a></li>
@@ -131,10 +131,11 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb-text">
-                        <h2>Services</h2>
+                        <h2>BMI calculator</h2>
                         <div class="bt-option">
                             <a href="./index.html">Home</a>
-                            <span>Services</span>
+                            <a href="#">Pages</a>
+                            <span>BMI calculator</span>
                         </div>
                     </div>
                 </div>
@@ -143,163 +144,78 @@
     </section>
     <!-- Breadcrumb Section End -->
 
-    <!-- Services Section Begin -->
-    <section class="services-section spad">
+    <!-- BMI Calculator Section Begin -->
+    <section class="bmi-calculator-section spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <span>What we do?</span>
-                        <h2>PUSH YOUR LIMITS FORWARD</h2>
+                <div class="col-lg-6">
+                    <div class="section-title chart-title">
+                        <span>check your body</span>
+                        <h2>BMI CALCULATOR CHART</h2>
+                    </div>
+                    <div class="chart-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Bmi</th>
+                                    <th>WEIGHT STATUS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="point">Below 18.5</td>
+                                    <td>Underweight</td>
+                                </tr>
+                                <tr>
+                                    <td class="point">18.5 - 24.9</td>
+                                    <td>Healthy</td>
+                                </tr>
+                                <tr>
+                                    <td class="point">25.0 - 29.9</td>
+                                    <td>Overweight</td>
+                                </tr>
+                                <tr>
+                                    <td class="point">30.0 - and Above</td>
+                                    <td>Obese</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 order-lg-1 col-md-6 p-0">
-                    <div class="ss-pic">
-                        <img src="img/services/services-1.jpg" alt="">
+                <div class="col-lg-6">
+                    <div class="section-title chart-calculate-title">
+                        <span>check your body</span>
+                        <h2>CALCULATE YOUR BMI</h2>
                     </div>
-                </div>
-                <div class="col-lg-3 order-lg-2 col-md-6 p-0">
-                    <div class="ss-text">
-                        <h4>Personal training</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut dolore
-                            facilisis.</p>
-                        <a href="#">Explore</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 order-lg-3 col-md-6 p-0">
-                    <div class="ss-pic">
-                        <img src="img/services/services-2.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-3 order-lg-4 col-md-6 p-0">
-                    <div class="ss-text">
-                        <h4>Group fitness classes</h4>
-                        <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus.</p>
-                        <a href="#">Explore</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 order-lg-8 col-md-6 p-0">
-                    <div class="ss-pic">
-                        <img src="img/services/services-4.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-3 order-lg-7 col-md-6 p-0">
-                    <div class="ss-text second-row">
-                        <h4>Body building</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut dolore
-                            facilisis.</p>
-                        <a href="#">Explore</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 order-lg-6 col-md-6 p-0">
-                    <div class="ss-pic">
-                        <img src="img/services/services-3.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-3 order-lg-5 col-md-6 p-0">
-                    <div class="ss-text second-row">
-                        <h4>Strength training</h4>
-                        <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus.</p>
-                        <a href="#">Explore</a>
+                    <div class="chart-calculate-form">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
+                            viverra maecenas accumsan lacus vel facilisis.</p>
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input type="text" placeholder="Height / cm">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="text" placeholder="Weight / kg">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="text" placeholder="Age">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="text" placeholder="Sex">
+                                </div>
+                                <div class="col-lg-12">
+                                    <button type="submit">Calculate</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Services Section End -->
-
-    <!-- Banner Section Begin -->
-    <section class="banner-section set-bg" data-setbg="img/banner-bg.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="bs-text service-banner">
-                        <h2>Exercise until the body obeys.</h2>
-                        <div class="bt-tips">Where health, beauty and fitness meet.</div>
-                        <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i
-                                class="fa fa-caret-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Banner Section End -->
-
-    <!-- Pricing Section Begin -->
-    <section class="pricing-section service-pricing spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <span>Our Plan</span>
-                        <h2>Choose your pricing plan</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-8">
-                    <div class="ps-item">
-                        <h3>Class drop-in</h3>
-                        <div class="pi-price">
-                            <h2>$ 39.0</h2>
-                            <span>SINGLE CLASS</span>
-                        </div>
-                        <ul>
-                            <li>Free riding</li>
-                            <li>Unlimited equipments</li>
-                            <li>Personal trainer</li>
-                            <li>Weight losing classes</li>
-                            <li>Month to mouth</li>
-                            <li>No time restriction</li>
-                        </ul>
-                        <a href="#" class="primary-btn pricing-btn">Enroll now</a>
-                        <a href="#" class="thumb-icon"><i class="fa fa-picture-o"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-8">
-                    <div class="ps-item">
-                        <h3>12 Month unlimited</h3>
-                        <div class="pi-price">
-                            <h2>$ 99.0</h2>
-                            <span>SINGLE CLASS</span>
-                        </div>
-                        <ul>
-                            <li>Free riding</li>
-                            <li>Unlimited equipments</li>
-                            <li>Personal trainer</li>
-                            <li>Weight losing classes</li>
-                            <li>Month to mouth</li>
-                            <li>No time restriction</li>
-                        </ul>
-                        <a href="#" class="primary-btn pricing-btn">Enroll now</a>
-                        <a href="#" class="thumb-icon"><i class="fa fa-picture-o"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-8">
-                    <div class="ps-item">
-                        <h3>6 Month unlimited</h3>
-                        <div class="pi-price">
-                            <h2>$ 59.0</h2>
-                            <span>SINGLE CLASS</span>
-                        </div>
-                        <ul>
-                            <li>Free riding</li>
-                            <li>Unlimited equipments</li>
-                            <li>Personal trainer</li>
-                            <li>Weight losing classes</li>
-                            <li>Month to mouth</li>
-                            <li>No time restriction</li>
-                        </ul>
-                        <a href="#" class="primary-btn pricing-btn">Enroll now</a>
-                        <a href="#" class="thumb-icon"><i class="fa fa-picture-o"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Pricing Section End -->
+    <!-- BMI Calculator Section End -->
 
     <!-- Get In Touch Section Begin -->
     <div class="gettouch-section">
